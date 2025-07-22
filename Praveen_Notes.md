@@ -117,7 +117,9 @@ Interview Questions:
     9) How to keep your dokcer image small? three ways we can keep it small.
         1) I use alpine edition or busybox as my base image. the size of the image will be very small (within 10MB max)Generally other images will be like 80MB or 100MB. bcoz it doesn't have unwanted packages. on top of that I install the packages which is required for me overall it will be lesser when I compared to other images. 
         2) Use multistage docker file. Split the big docker file with two or more FROM command. refer the image
-            ![alt text](Mutistage-Dockerfile.png)
+            Before Mutistage: ![alt text](Before Mutistage-Dockerfile.png)
+            
+            After Mutistage : ![alt text](After Mutistage-Dockerfile.png)
         3) Use .dockerignore (inside this we can keep things which is required but not to push it in the image.)
     10) diff between COPY and ADD
         COPY -> old command
