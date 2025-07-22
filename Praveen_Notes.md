@@ -23,7 +23,7 @@ Port Mapping : -p hostport:containerport
     We need to publish the port. it means we need to tell docker to create container and link the host port (ex 9123) to container port(80). 
     so to access the contents in the httpd container we need to connect it through this port. 
 
-        ![LOGO](image-1.png)
+        ![LOGO](images/image-1.png)
 
 Docker online editor:
     docker playground. 
